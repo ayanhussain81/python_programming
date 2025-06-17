@@ -1,108 +1,106 @@
-# Python Programming Class
+# Python Programming Class – Batch Guide
 
-## class1 - Project Setup Guide
+## Class 1 – Project Setup Guide
 
-This guide explains how to set up the development environment using Anaconda, Visual Studio Code (VS Code), Python & Gitbash for Version Controlling.
-
-### Prerequisites
-
-- [Anaconda](https://www.anaconda.com/products/individual#Downloads)
-- [GitBash](https://git-scm.com/downloads)
-
-### Installation Guide
-
-- [Anaconda Installation Guide](https://github.com/ayanhussain81/)
-- [GitBash Installation Guide](f)
+Welcome to the Python Programming course!  
+This guide will walk you through setting up your development environment using **Anaconda**, **VS Code**, **Git Bash**, and **Python**. By the end, you'll be ready to write your first Python program and manage your projects efficiently.
 
 ---
 
-## TABLE OF CONTENT
+## Prerequisites
 
-1. [Running a "Hello World" Program](#running-a-hello-world-program)
-2. [Setting Up a Virtual/Conda Environment](#setting-up-a-virtual-environment)
+Please install the following software before proceeding:
 
-## Running a "Hello World" Program
+- [Anaconda (Python + Jupyter)](https://www.anaconda.com/products/individual#Downloads)
+- [Git Bash](https://git-scm.com/downloads)
+- [Visual Studio Code (VS Code)](https://code.visualstudio.com/download)
 
-You can run a simple "Hello World" program to ensure that your python setup is working as expected.
+---
 
-### Using Command Prompt on Windows
+## Installation Guides
 
-1. Open Command prompt (CLI)
-2. Validate Conda & Pythonn are successfully installed.
+- 📦 [Anaconda & Jupyter Installation Guide](https://github.com/ayanhussain81/python_programming/blob/main/documents/Anaconda%26%20JupyterNotebook%20Installati)
+- 🔧 [Git Bash Installation Guide](https://github.com/ayanhussain81/python_programming/blob/main/documents/GtiBash%20Installation.pdf)
+- 💻 **VS Code Installation Steps:**
+  1. Download from [VS Code Official Site](https://code.visualstudio.com/)
+  2. During installation:
+     - ✅ Check “Add to PATH”
+     - ✅ Install Python extension when prompted
+  3. After launch:
+     - Go to Extensions (`Ctrl+Shift+X`)
+     - Search for **Python** (by Microsoft)
+     - Click **Install**
+
+---
+
+## 📑 Table of Contents
+
+1. [Running a "Hello World" Program](#-running-a-hello-world-program)
+2. [Setting Up a Virtual/Conda Environment](#-setting-up-a-virtualconda-environment)
+3. [Installing Required Packages](#-installing-required-packages)
+
+---
+
+## 👋 Running a "Hello World" Program
+
+Test your setup by running your first Python program.
+
+### 🔹 Using Command Prompt / Git Bash
+
+1. Open **Command Prompt** or **Git Bash**
+2. Verify Python and Conda are installed:
 
     ```bash
     conda --version 
     python --version
     ```
 
-3. Open Python Environment on Command Prompt (CLI)
+3. Enter Python interactive mode:
 
     ```bash
-    python [Hit enter you will be in Python Enviornment of CLI]
+    python
     ```
 
-4. Run the following Python command:
+4. Run your first program:
 
-    ```bash
+    ```python
     print("Hello Saylani...!!!")
     ```
 
-### Using Jupyter Notebook (.ipynb file)
+5. Exit Python shell:  
+   - `Ctrl + Z` then `Enter` (Windows)  
+   - `Ctrl + D` (Linux/Mac)
 
-1. Goto any specified folder you want eg:`/Documents/Python912`
-2. From the address bar of that folder open Command prompt (CLI)
-3. Type `jupyter notebook` to open Jupyter Notebook
-4. create a new Jupyter Notebook called `class1.ipynb`.
-5. Insert the following Python code into a new cell:
+---
+
+### 🔹 Using Jupyter Notebook
+
+1. Navigate to your project folder (e.g., `Documents/Python912`)
+2. Open **Command Prompt** in that folder
+3. Start Jupyter Notebook:
+
+    ```bash
+    jupyter notebook
+    ```
+
+4. Create a new file named `class1.ipynb`
+5. In the first cell, write:
 
     ```python
     print("Hello world")
     ```
 
-3. Click on the Run button (SHIFT+ENTER) to execute the cell.
+6. Run the cell with `Shift + Enter`
 
 ---
 
-## Setting Up a Virtual Environment
+## 📦 Setting Up a Virtual/Conda Environment
 
-### Creating a New Environment
+Using virtual environments helps you manage dependencies cleanly.
 
-1. Run the following command to create a new Conda environment:
+### 🔹 Create a New Environment
 
-    ```bash
-    conda create --name <env_name> 
-    # Example: conda create --name python912 
-    ```
-
-2. Activate your newly created environment:
-
-    ```bash
-    conda activate <env_name>
-    # Example: conda activate python912
-    ```
-
-3. Check names of your already created environments lists
-
-    ```bash
-    conda env list
-    ```
-
-### Installing Required Packages
-
-1. Create a `requirements.txt` file with the following content:
-
-    ```
-    numpy
-    ```
-
-2. Run the following command to install the required packages:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
----
-
-
-
-
-
+```bash
+conda create --name <env_name>
+# Example:
+conda create --name python912
