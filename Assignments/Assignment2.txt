@@ -1,0 +1,17 @@
+1. Write a program to determine if a triangle is equilateral, isosceles, or scalene based on user input sides.
+
+2. Input marks of 5 subjects and decide whether the student passed (must score >33 in all) and their average percentage.
+
+3. Count the frequency of characters in a string using a dictionary.
+
+4. Convert two lists into a dictionary (one list of keys, one list of values).
+
+5. Try converting a string to an integer and catch any value error if it fails.
+
+6. Handle a key error while accessing a non-existent key from a dictionary.
+
+7. Use a try-except-finally block to open a file, read its contents, and close the file (even if an error occurs).
+
+8. Nest multiple try-except blocks to handle file read and data conversion.
+
+

@@ -1,0 +1,17 @@
+For loop:
+
+1. Create a list of all numbers between 1 and 100 that are divisible by both 3 and 5.
+
+2. Write a loop that replaces all spaces in a string with underscores.
+
+
+3. Check which elements are common in two lists
+
+
+While loop:
+
+1. Keep removing elements from a list one by one and print the list each time, until it becomes empty
+
+2. Start from a number and keep dividing it by 2 until it becomes less than 1. Print each value.
+
+2. Ask the user to enter numbers until the total sum crosses 100.
