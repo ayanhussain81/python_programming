@@ -1,0 +1,63 @@
+1. Encapsulation:
+
+    Create a class OnlineOrder with the following:
+
+    Private attributes: __order_id, __items (list), __status (pending, shipped, delivered)
+
+    Public methods:
+
+    add_item(item_name)
+
+    remove_item(item_name)
+
+    update_status(new_status) — only allow valid statuses
+
+    get_order_summary() — return order ID, items, and status
+
+
+2. Inheritance:
+
+    Create a base class Employee with attributes like name, id, and a method get_details().
+
+    Inherit it in:
+
+    Manager class: add team_size
+
+    Developer class: add programming_language
+
+    Override get_details() in both subclasses to include their specific details.
+
+3. Polymorphism:
+
+    Create a MessageSender class with a method send(). Inherit it in EmailSender and SMSSender and override send(). Use a loop to call send() on different objects.
+
+
+4. Abstraction:
+
+    Create an abstract class Appliance with:
+
+    Abstract method: turn_on()
+
+    Abstract method: turn_off()
+
+    Then create two classes:
+
+    WashingMachine
+
+    Microwave
+
+    Each class should implement the turn_on() and turn_off() methods differently (e.g., display specific messages like "Washing clothes..." or "Heating food...").
+
+
+5. All Pillars Combined:
+    Design classes for an online learning platform with:
+
+    Encapsulation in User class
+
+    Inheritance with Student and Instructor
+
+    Polymorphism using access_portal()
+
+    Abstraction with CourseMaterial class
+
+
